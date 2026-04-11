@@ -33,7 +33,6 @@ jobs:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
           TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
           REPO_TOKEN: ${{ secrets.REPO_TOKEN }}
-          PUSH_KEY: ${{ secrets.PUSH_KEY}} 
           
         run: python scripts/auto_login.py
         
